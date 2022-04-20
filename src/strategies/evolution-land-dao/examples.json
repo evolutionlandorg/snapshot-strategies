@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Evolution Land Dao Governance strategy",
+    "strategy": {
+      "name": "evolution-land-dao",
+      "params": {
+        "symbol": "EvolutionLand",
+        "strategies": [
+          {
+            "name": "erc721-balance-of",
+            "network": "44",
+            "api_host": "",
+            "params": {
+              "address": "0x6Ab81AF040fec3c13685ccFB26eC50C8aAB46445",
+              "decimals": 18,
+              "land_multiplier": 1,
+              "apostle_multiplier": 1,
+              "kton_multiplier": 1
+            }
+          }
+        ]
+      }
+    },
+    "network": "1",
+    "addresses": [
+      "0x84f4e9b619f1f456b67369369418e428e7ceab3c",
+      "0x7eef076bc5c57afd42ac3cbf3e29b13a7baf4cac",
+      "0x735182c782cb8e7806f8903de7913e6880cbf82e",
+      "0xe59261f6d4088bcd69985a3d369ff14cc54ef1e5",
+      "0x6268c09fcdefd20c60daebe674d20567fe3bde0a",
+      "0x5a91fe74ab3788ff58187acaf3fb0a039534428e"
+    ],
+    "snapshot": 13803640
+  }
+]
